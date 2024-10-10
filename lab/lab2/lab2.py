@@ -1,0 +1,1 @@
+#solved exercises from lab2 (solved on Linux)

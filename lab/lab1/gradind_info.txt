@@ -1,0 +1,10 @@
+# each lab will have homework  checked at the end
+
+# we will use Python
+
+#Grading:
+
+#50% Lab (min. 25% to pass)
+#50% Exam (min. 25% to pass)
+
+#Prof. Goga at course and Ciungan at lab
