@@ -78,8 +78,44 @@
 # print("Even list is: " + str(list_even))
 # print("Odd list is: " + str(list_odd))
 
+##########exercise5###########################################################################
 
+# Write a program which has a class called “Cube” constructed by the length of one
+# side and 3 functions which will compute: the area of one surface, the area of all
+# surfaces and the volume of the cube.
 
+# class Cube:
+#     def __init__(self, side_length):
+#         self.side_length = side_length
+
+#     def surface_area_one(self):
+#         return self.side_length ** 2
+
+#     def surface_area_all(self):
+#         return 6 * self.surface_area_one()
+
+#     def volume(self):
+#         return self.side_length ** 3
+
+# # Example usage:
+# cube = Cube(3)
+# print(f"Area of one surface: {cube.surface_area_one()}")
+# print(f"Area of all surfaces: {cube.surface_area_all()}")
+# print(f"Volume of the cube: {cube.volume()}")
+
+##########exercise6###########################################################################
+
+# Write a program using lambda that will get the power of a specified number.
+# (e.g., power of 2/3 of the specified number 5 will output 25/125)
+
+# number = 5
+# power_of_2 = lambda x: x ** 2
+# power_of_3 = lambda x: x ** 3
+    
+# print(f"Power of 2 of {number} is {power_of_2(number)}")
+# print(f"Power of 3 of {number} is {power_of_3(number)}")
+
+##########end_of_homework###########################################################################
 
     
     
