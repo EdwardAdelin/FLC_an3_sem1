@@ -1,4 +1,5 @@
-#exercise1
+##########exercise1###########################################################################
+
 #Write a function that prints the Fibonacci series based on the number of terms
 #inputted by the user (e.g., if the user inputs 5, the output should be 0 1 1 2 3)
 
@@ -20,7 +21,9 @@
 
 # fibonacci(5)
 
-#exercise2
+
+##########exercise2###########################################################################
+
 #Write a function that computes the great common divisor of two positive numbers.
 
 # print("Insert two positive numbers, to find their greatest common divisor")
@@ -37,7 +40,10 @@
 
 # print("Greatest common divisor of "+str(number1)+" and  "+str(number2)+" is: "+str(greatest_common_divisor))
 
-#exercise3
+
+
+##########exercise3###########################################################################
+
 #Write a function that computes the least common multiple of two positive
 #numbers. 
 
@@ -52,13 +58,25 @@
 
 # print(f"LCM of {num1} and {num2} is {lcm(num1, num2)}")
 
-#exercise4
+
+##########exercise4###########################################################################
+
 # Write a function that takes as input a list of integers and returns 2 lists: one with
 # the even numbers from the initial list and on with the odd numbers (e.g.,
 # list1=[1,2,3,4,5,6], the lists obtained using the function will be listEven=[2,4,6]
 # and listOdd=[1,3,5])
 
-print("Insert numbers into the list (to splint into even and odd) : ")
+# print("Insert numbers into the list (to splint into even and odd) : ")
+# list =  [1,2,3,4,5,6]
+# list_even = [] #par
+# list_odd = [] #impar
+# for i in range  (0, len(list)):
+#     if (list[i]%2==0):
+#         list_even.append(list[i])
+#     if (list[i]%2!=0):
+#         list_odd.append(list[i])
+# print("Even list is: " + str(list_even))
+# print("Odd list is: " + str(list_odd))
 
 
 
