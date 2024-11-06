@@ -34,16 +34,16 @@ df.to_excel("HW5Ex2.xlsx", index=False)
 print("Excel file 'HW5Ex2.xlsx' created successfully.")
 print("\n\n")
 
-#exercitiul3
+#ex3
 tag_regex = r'<([a-z]+)( [^>])?>.?</\1>'
 examples = [
-    "<p>Correct</p>",  # Correct
-    "<p>Unmatched",    # Incorrect
-    "p>Missing tag",   # Incorrect
-    "<id=incorrect>",  # Incorrect
-    "<p>",             # Incorrect
-    "<p/>",            # Incorrect
-    "<div>Correct</div>",  # Correct
+    "<p>Correct</p>",  
+    "<p>Unmatched",    
+    "p>Missing tag",   
+    "<id=incorrect>",  
+    "<p>",             
+    "<p/>",            
+    "<div>Correct</div>", 
 ]
 for example in examples:
     if re.match(tag_regex, example):
@@ -53,7 +53,7 @@ for example in examples:
 
 print("\n\n")
 
-#exercitiul4
+#ex4
 def dfa_check(word):
     state = 0
     for char in word:
@@ -80,7 +80,7 @@ def dfa_check(word):
             else:
                 state = 3
     return state == 2
-# valori test
+#test
 words = ["abaa", "aabab", "aabba", "aabb", "cab", "abab"]
 for word in words:
     if dfa_check(word):
